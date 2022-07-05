@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as HashRouter, Route, Routes } from 'react-router-dom'
 import './global_style.css'
 import Easter from './pages/easter/easter'
 import Homepage from './pages/homepage/homepage'
@@ -10,12 +10,12 @@ const routes = {
 
 const AppRouter = () => {
     return (
-        <Router>
+        <HashRouter>
             <Routes>
                 <Route path={routes.homepage()} element={<Homepage />} />
                 <Route path={routes.easter()} element={<Easter />} />
             </Routes>
-        </Router>
+        </HashRouter>
     )
 }
 
