@@ -1,0 +1,13 @@
+.easter.flexbox {
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.easter.img {
+    margin-top: 10vh;
+    height: 50vh;
+    border-radius: 1vh;
+}
