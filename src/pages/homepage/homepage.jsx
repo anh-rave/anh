@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import ActionButton from '../../components/action_button/action_button'
 import Loader from '../../components/loader/loader'
+import { routes } from './../../app_router'
 import './style.css'
 
 const Homepage = () => {
@@ -11,7 +12,7 @@ const Homepage = () => {
     const [loading, setLoading] = useState(true)
     const [initialized, setInitialized] = useState(false)
 
-    const goToEaster = () => navigate('/easter')
+    const goToEaster = () => navigate(routes.easter)
 
     useEffect(() => {
         setTimeout(() => setInitialized(true), 500)
