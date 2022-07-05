@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom'
+import Loader from '../../components/loader/loader'
 import './style.css'
 
 const Homepage = () => {
@@ -8,9 +9,12 @@ const Homepage = () => {
 
     return (
         <>
-            <div className="flexbox column">
+            <div className="flexbox main">
                 <div className="homepage header">ANH.</div>
                 <div className="homepage easter" onClick={goToEaster} />
+                <div className="homepage action">
+                    <Loader />
+                </div>
             </div>
         </>
     )

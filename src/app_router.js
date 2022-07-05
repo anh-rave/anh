@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import './global_styles.css'
+import './global_style.css'
 import Easter from './pages/easter/easter'
 import Homepage from './pages/homepage/homepage'
 

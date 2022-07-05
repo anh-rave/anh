@@ -9,7 +9,7 @@ const Easter = () => {
 
     return (
         <>
-            <div className="easter flexbox">
+            <div className="flexbox main">
                 <h1>Witam w ister eggu</h1>
                 <p>Tu mozna schowac jakies tajne rzeczy itp itd</p>
                 <img className="easter img" src={stlc} alt="stolec" onClick={goBack} />
