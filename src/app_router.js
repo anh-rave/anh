@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Homepage from './pages/homepage/homepage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Homepage from './pages/homepage/homepage'
 
 const routes = {
-    homepage: () => '/'
-};
+    homepage: () => '/',
+}
 
 const AppRouter = () => {
     return (
@@ -12,7 +12,7 @@ const AppRouter = () => {
                 <Route path={routes.homepage()} element={<Homepage />} />
             </Routes>
         </Router>
-    );
-};
+    )
+}
 
-export default AppRouter;
+export default AppRouter
