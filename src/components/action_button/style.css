@@ -1,0 +1,13 @@
+.actionbutton.button {
+    width: 20vh;
+    height: 5vh;
+    border: 5px white solid;
+    border-radius: 10vh;
+    font-size: 5vh;
+    transition: 0.25s;
+}
+
+.actionbutton.button:hover {
+    background-color: white;
+    transition: 0.25s;
+}
