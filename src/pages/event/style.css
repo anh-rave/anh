@@ -1,0 +1,47 @@
+.event.img {
+    margin: 2vh;
+    width: 50vh;
+    border-radius: 1vh;
+}
+
+.event.header {
+    font-size: 10vh;
+}
+
+.event.date {
+    font-weight: bold;
+    margin-bottom: 2vh;
+}
+
+.event.location {
+    font-size: 1.5vh;
+}
+
+pre {
+    margin: 1vh 0.5vh;
+    white-space: pre-wrap; /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.event.ig {
+    margin-top: 1vh;
+    width: 10vh;
+}
+
+@media (max-width: 800px) {
+    .event.img {
+        width: 90vw;
+    }
+
+    .event.header {
+        font-size: 5vh;
+    }
+
+    .event.ig {
+        margin-top: 5vh;
+        width: 10vh;
+    }
+}

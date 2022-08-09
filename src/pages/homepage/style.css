@@ -1,7 +1,7 @@
- .homepage.header {
+.homepage.header {
     margin-top: 20vh;
     font-size: 20vh;
-    font-family: Impact;
+    font-family: 'Anton';
 }
 
 .homepage.easter {
@@ -16,4 +16,3 @@
 .homepage.action {
     margin-top: 10vw;
 }
-

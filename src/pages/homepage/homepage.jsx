@@ -14,6 +14,8 @@ const Homepage = () => {
 
     const goToEaster = () => navigate(routes.easter)
 
+    const goToEvent = () => navigate(routes.event)
+
     useEffect(() => {
         setTimeout(() => setInitialized(true), 500)
     }, [])
@@ -27,7 +29,7 @@ const Homepage = () => {
     const getAction = () => {
         if (!initialized) return <></>
         if (loading) return <Loader />
-        return <ActionButton text="GO" />
+        return <ActionButton text="GO" onClick={goToEvent} />
     }
 
     return (
