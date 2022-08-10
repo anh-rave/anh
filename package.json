@@ -2,7 +2,7 @@
     "name": "anh",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://matbujnowicz.github.io/anh",
+    "homepage": "https://anh_rave.github.io/anh",
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.4",
         "@testing-library/react": "^13.3.0",

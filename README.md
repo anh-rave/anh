@@ -1,6 +1,6 @@
 # ANNIHILATION WEB APP
 
-[SEE LIVE](https://matbujnowicz.github.io/anh/)
+[SEE LIVE](https://anh_rave.github.io/anh/)
 
 Elo byczki, w tym repo znajduje się pierwsza wersja web appki annihilaton. Naucze was programowac w REACT JS. Jak czegos nie rozumiecie to GOOGLujcie. **Stackoverflow** to jest to. Pisze to offline w autobusie do Stana Cruz de Tenerife wiec bedzie bez linkow xD.
 
