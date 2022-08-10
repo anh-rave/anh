@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/anh/static/css/main.45cc1f98.css",
-    "main.js": "/anh/static/js/main.f2ee5525.js",
+    "main.js": "/anh/static/js/main.2141a62e.js",
     "static/js/787.b46a9961.chunk.js": "/anh/static/js/787.b46a9961.chunk.js",
     "static/media/stlc.png": "/anh/static/media/stlc.62547e9e8c9c91021a46.png",
-    "static/media/wildforrest.png": "/anh/static/media/wildforrest.988a145b4dab974b88ce.png",
+    "static/media/wildforrest.png": "/anh/static/media/wildforrest.615f707bb276e5fedaa3.png",
     "static/media/ig.png": "/anh/static/media/ig.abced1a115ac65261348.png",
     "static/media/loader.svg": "/anh/static/media/loader.bbc4b7642726dca97de130db3c12deca.svg",
     "index.html": "/anh/index.html",
     "main.45cc1f98.css.map": "/anh/static/css/main.45cc1f98.css.map",
-    "main.f2ee5525.js.map": "/anh/static/js/main.f2ee5525.js.map",
+    "main.2141a62e.js.map": "/anh/static/js/main.2141a62e.js.map",
     "787.b46a9961.chunk.js.map": "/anh/static/js/787.b46a9961.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45cc1f98.css",
-    "static/js/main.f2ee5525.js"
+    "static/js/main.2141a62e.js"
   ]
 }
