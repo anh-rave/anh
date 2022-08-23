@@ -3,11 +3,14 @@
     height: 5vh;
     border: 5px white solid;
     border-radius: 10vh;
-    font-size: 5vh;
+    font-size: 2em;
     transition: 0.25s;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .actionbutton.button:hover {
-    background-color: white;
-    transition: 0.25s;
+    cursor: pointer;
 }
