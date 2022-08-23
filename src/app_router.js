@@ -3,6 +3,7 @@ import './global_style.css'
 import Easter from './pages/easter/easter'
 import Event from './pages/event/event'
 import Homepage from './pages/homepage/homepage'
+import Where from './pages/where/where'
 import WildForestPromo from './pages/wild_forest_promo/wild_forest_promo'
 
 export const routes = {
@@ -10,6 +11,7 @@ export const routes = {
     homepage: '/anh',
     easter: '/easter',
     event: '/event',
+    where: '/where',
     oldHomepage: '/oldHomepage',
 }
 
@@ -22,6 +24,7 @@ const AppRouter = () => {
                 <Route path={routes.easter} element={<Easter />} />
                 <Route path={routes.event} element={<Event />} />
                 <Route path={routes.homepage} element={<WildForestPromo />} />
+                <Route path={routes.where} element={<Where />} />
             </Routes>
         </HashRouter>
     )

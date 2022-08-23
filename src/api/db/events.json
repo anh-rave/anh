@@ -23,12 +23,12 @@
         "date": "2022-08-27",
         "startTime": "20:00",
         "location": {
-            "coordinates": "313.234",
+            "coordinates": "",
             "description": "wsiadasz w tramwaj 43 i jestes",
-            "link": "maps.google.com/tututu",
-            "revealDate": "2022-07-30"
+            "link": "maps.google.com/tututu"
         },
         "locationTBA": "coordinates: 24hrs before event",
-        "locationTip": "(near LODZ)"
+        "locationTip": "(near LODZ)",
+        "codes": ["KODZIKS"]
     }
 ]

@@ -1,0 +1,13 @@
+.where > .flexbox.main > .code {
+    background-color: gray;
+    margin: 1em;
+}
+
+.where > .flexbox.main > .top {
+    margin-bottom: 0.5em;
+    margin-top: 3em;
+}
+
+.where > .flexbox.main > .bot {
+    margin-top: 3em;
+}
