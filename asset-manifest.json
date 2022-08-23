@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/anh/static/css/main.45cc1f98.css",
-    "main.js": "/anh/static/js/main.2141a62e.js",
+    "main.css": "/anh/static/css/main.8b39629f.css",
+    "main.js": "/anh/static/js/main.18accadc.js",
     "static/js/787.b46a9961.chunk.js": "/anh/static/js/787.b46a9961.chunk.js",
+    "static/media/way.gif": "/anh/static/media/way.d6aa6e7c683a38ae8a63.gif",
+    "static/media/path.png": "/anh/static/media/path.297c401c11f1f69180aa.png",
+    "static/media/fr1.png": "/anh/static/media/fr1.a3328a558b037e16b15d.png",
+    "static/media/fr4.png": "/anh/static/media/fr4.4419a1c64845c7163bb4.png",
+    "static/media/fr3.png": "/anh/static/media/fr3.f86c197848d79dcaef10.png",
+    "static/media/fr0.png": "/anh/static/media/fr0.490193fa7b4bcdef5b1d.png",
+    "static/media/fr2.png": "/anh/static/media/fr2.21e75c8a246337873b56.png",
+    "static/media/fr5.png": "/anh/static/media/fr5.d62433dd56ebb8a27c61.png",
     "static/media/stlc.png": "/anh/static/media/stlc.62547e9e8c9c91021a46.png",
     "static/media/wildforrest.png": "/anh/static/media/wildforrest.615f707bb276e5fedaa3.png",
     "static/media/ig.png": "/anh/static/media/ig.abced1a115ac65261348.png",
     "static/media/loader.svg": "/anh/static/media/loader.bbc4b7642726dca97de130db3c12deca.svg",
     "index.html": "/anh/index.html",
-    "main.45cc1f98.css.map": "/anh/static/css/main.45cc1f98.css.map",
-    "main.2141a62e.js.map": "/anh/static/js/main.2141a62e.js.map",
+    "main.8b39629f.css.map": "/anh/static/css/main.8b39629f.css.map",
+    "main.18accadc.js.map": "/anh/static/js/main.18accadc.js.map",
     "787.b46a9961.chunk.js.map": "/anh/static/js/787.b46a9961.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45cc1f98.css",
-    "static/js/main.2141a62e.js"
+    "static/css/main.8b39629f.css",
+    "static/js/main.18accadc.js"
   ]
 }
