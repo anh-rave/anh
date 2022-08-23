@@ -11,3 +11,27 @@
 .where > .flexbox.main > .bot {
     margin-top: 3em;
 }
+
+.where > .flexbox.main > .error {
+    color: red;
+    margin-bottom: 1em;
+}
+
+.where > .flexbox.main > img {
+    height: 25vh;
+    border-radius: 1em;
+}
+
+.where > .flexbox.main > a {
+    margin: 0.5em;
+    font-size: 30px;
+}
+
+.where > .flexbox.main > p > span {
+    color: violet;
+    font-weight: bold;
+}
+
+.where > .flexbox.main > .marginBox {
+    height: 1em;
+}
