@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
+import { routes } from '../../app_router'
 import ActionButton from '../../components/action_button/action_button'
 import { images, texts } from './data'
 import './style.css'
@@ -6,7 +8,9 @@ import './style.css'
 const PROMO_PICS_COUNT = 5
 
 const WildForestPromo = () => {
-    const [currentPromoPic, setCurrentPromoPic] = React.useState(0)
+    let navigate = useNavigate()
+
+    const [currentPromoPic, setCurrentPromoPic] = useState(0)
 
     const changePic = () => {
         setCurrentPromoPic(currentPromoPic + 1)
@@ -15,16 +19,18 @@ const WildForestPromo = () => {
         }
     }
 
-    React.useEffect(() => {
+    useEffect(() => {
         const interval = setInterval(changePic, 3000)
         return () => clearInterval(interval)
     }, [currentPromoPic]) // eslint-disable-line react-hooks/exhaustive-deps
+
+    const goToEvent = () => navigate(routes.event)
 
     return (
         <div className="wildForestPromo">
             <img src={images[currentPromoPic]} alt="cool party images" />
             <p>{texts[currentPromoPic]}</p>
-            <ActionButton text="more." onClick={() => {}} color="greenyellow" />
+            <ActionButton text="more." onClick={goToEvent} color="greenyellow" />
         </div>
     )
 }

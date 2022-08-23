@@ -1,7 +1,7 @@
 .event.img {
     margin: 2vh;
     width: 50vh;
-    border-radius: 1vh;
+    border-radius: 5em;
 }
 
 .event.header {
@@ -28,7 +28,12 @@ pre {
 
 .event.ig {
     margin-top: 1vh;
-    width: 10vh;
+    width: 5vh;
+}
+
+.event.btn {
+    position: relative;
+    top: -7vh;
 }
 
 @media (max-width: 800px) {
@@ -42,6 +47,6 @@ pre {
 
     .event.ig {
         margin-top: 5vh;
-        width: 10vh;
+        width: 5vh;
     }
 }
