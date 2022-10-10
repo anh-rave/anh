@@ -3,8 +3,8 @@ import './global_style.css'
 import Easter from './pages/easter/easter'
 import Event from './pages/event/event'
 import Homepage from './pages/homepage/homepage'
+import WildForestPromo from './pages/new_homepage/wild_forest_promo'
 import Where from './pages/where/where'
-import WildForestPromo from './pages/wild_forest_promo/wild_forest_promo'
 
 export const routes = {
     root: '/',
