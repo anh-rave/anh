@@ -28,9 +28,9 @@ const WildForestPromo = () => {
 
     return (
         <div className="wildForestPromo">
-            <img src={images[currentPromoPic]} alt="cool party images" />
+            <img src={images[0]} alt="cool party images" />
             <p>{texts[currentPromoPic]}</p>
-            <ActionButton text="more." onClick={goToEvent} color="greenyellow" />
+            <ActionButton text="more." onClick={goToEvent} color="#050401" />
         </div>
     )
 }

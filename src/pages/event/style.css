@@ -1,7 +1,7 @@
 .event.img {
     margin: 2vh;
-    width: 50vh;
-    border-radius: 5em;
+    width: 30vh;
+    border-radius: 1em;
 }
 
 .event.header {
@@ -10,7 +10,7 @@
 
 .event.date {
     font-weight: bold;
-    margin-bottom: 2vh;
+    margin: 2vh;
 }
 
 .event.location {
@@ -27,13 +27,22 @@ pre {
 }
 
 .event.ig {
-    margin-top: 1vh;
+    position: relative;
     width: 5vh;
 }
 
 .event.btn {
     position: relative;
     top: -7vh;
+}
+
+.event.description {
+    text-align: start;
+    font-size: 14px;
+    background-color: #fffaff;
+    max-width: 800px;
+    margin: 0px 1vh 1vh 1vh;
+    color: #050401;
 }
 
 @media (max-width: 800px) {
@@ -43,10 +52,5 @@ pre {
 
     .event.header {
         font-size: 5vh;
-    }
-
-    .event.ig {
-        margin-top: 5vh;
-        width: 5vh;
     }
 }

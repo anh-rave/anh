@@ -27,15 +27,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    justify-content: space-between;
+    height: 40vh;
+    padding-top: 30vh;
 }
 
 .wildForestPromo > p {
     font-size: 2em;
-    color: greenyellow;
+    color: #050401;
     font-weight: bold;
-    text-shadow: 10px 10px #000;
-    margin-top: 40vh;
-    margin-bottom: 20vh;
     text-align: center;
+}
+
+@media (min-width: 800px) {
+    .wildForestPromo > p {
+        font-size: 3em;
+    }
 }
