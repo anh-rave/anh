@@ -30,7 +30,7 @@ const WildForestPromo = () => {
         <div className="wildForestPromo">
             <img src={images[0]} alt="cool party images" />
             <p>{texts[currentPromoPic]}</p>
-            <ActionButton text="more." onClick={goToEvent} color="#050401" />
+            <ActionButton text="more" onClick={goToEvent} color="#050401" />
         </div>
     )
 }

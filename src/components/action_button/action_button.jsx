@@ -5,8 +5,7 @@ const ActionButton = ({ onClick, color, text }) => {
     const [isHovered, setIsHovered] = useState(false)
     const c = color || '#fff'
 
-    // eslint-disable-next-line no-unused-vars
-    const getBackgroundColor = () => (isHovered ? c : 'transparent')
+    const getHoverColor = () => (isHovered ? '#92E000' : '#fffaff')
 
     return (
         <div
@@ -14,7 +13,7 @@ const ActionButton = ({ onClick, color, text }) => {
             onClick={onClick}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
-            style={{ borderColor: c, backgroundColor: c, color: 'white' }}
+            style={{ borderColor: c, backgroundColor: c, color: getHoverColor() }}
         >
             {text && text}
         </div>

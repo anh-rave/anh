@@ -1,14 +1,15 @@
 .actionbutton.button {
     height: 5vh;
-    padding: 0px 2em;
+    padding: 0px 1.3em 0.2em 1.3em;
     border: 2px white solid;
     border-radius: 10vh;
-    font-size: 1.2em;
+    font-size: 2em;
     transition: 0.25s;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
+    font-weight: bold;
 }
 
 .actionbutton.button:hover {
