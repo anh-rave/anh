@@ -10,11 +10,17 @@
 
 .event.date {
     font-weight: bold;
+    font-size: 3em;
     margin: 2vh;
 }
 
 .event.location {
     font-size: 1.5vh;
+}
+
+.event.links {
+    display: flex;
+    gap: 1em;
 }
 
 pre {
@@ -37,12 +43,37 @@ pre {
 }
 
 .event.description {
+    font-size: 1.5em;
+}
+
+.event.loc {
+    padding: 1vh 2vh;
+    border: solid 2px;
+    margin-bottom: 2vh;
+    font-weight: bold;
+}
+
+.event.loc a {
+    text-decoration: none;
+}
+
+.desc {
     text-align: start;
-    font-size: 14px;
-    background-color: #fffaff;
     max-width: 800px;
+    font-size: medium;
     margin: 0px 1vh 1vh 1vh;
-    color: #050401;
+}
+
+.desc p {
+    margin: 1vh 0px;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.desc span {
+    font-weight: bold;
 }
 
 @media (max-width: 800px) {
