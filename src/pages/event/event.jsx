@@ -60,6 +60,7 @@ const Event = () => {
                             </li>
                         </ul>
                     </p>
+                    <h3>TAX: 20, TYLKO CASH</h3>
                 </div>
             </div>
         </>
