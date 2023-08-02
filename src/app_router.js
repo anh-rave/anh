@@ -4,6 +4,7 @@ import Easter from './pages/easter/easter'
 import Event from './pages/event/event'
 import Homepage from './pages/homepage/homepage'
 import NewHomepage from './pages/new_homepage/new_homepage'
+import Profile from './pages/profile/profile'
 import Where from './pages/where/where'
 
 export const routes = {
@@ -13,6 +14,7 @@ export const routes = {
     event: '/event',
     where: '/where',
     oldHomepage: '/oldHomepage',
+    profile: '/profile',
 }
 
 const AppRouter = () => {
@@ -25,6 +27,7 @@ const AppRouter = () => {
                 <Route path={routes.event} element={<Event />} />
                 <Route path={routes.homepage} element={<NewHomepage />} />
                 <Route path={routes.where} element={<Where />} />
+                <Route path={routes.profile} element={<Profile />} />
             </Routes>
         </HashRouter>
     )

@@ -3,7 +3,6 @@ import './style.css'
 
 const Event = () => {
     const event = getEvent('2')
-    console.log(event)
 
     return (
         <>

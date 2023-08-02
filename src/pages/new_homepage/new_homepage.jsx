@@ -32,7 +32,7 @@ const NewHomepage = () => {
         return () => clearInterval(interval)
     }, [currentPromoPic]) // eslint-disable-line react-hooks/exhaustive-deps
 
-    const goToEvent = () => navigate(routes.event)
+    const goToEvent = () => navigate(routes.profile)
 
     return (
         <div className="wildForestPromo">
