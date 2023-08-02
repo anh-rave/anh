@@ -2,7 +2,7 @@ import { getEvent } from '../../api/api'
 import './style.css'
 
 const Event = () => {
-    const event = getEvent('2')
+    const event = getEvent('3')
 
     return (
         <>
@@ -13,21 +13,22 @@ const Event = () => {
                     <a href={event.link} target="_blank" rel="noreferrer">
                         <img className="event ig" src={require('./ig.png')} alt={event.name} />
                     </a>
-                    <a href={'https://www.facebook.com/events/501187248710367'} target="_blank" rel="noreferrer">
+                    {/* <a href={'https://www.facebook.com/events/501187248710367'} target="_blank" rel="noreferrer">
                         <img className="event ig" src={require('./event.png')} alt={event.name} />
-                    </a>
+                    </a> */}
                 </div>
 
                 <p className="event date">
                     {event.date} {event.startTime}
                 </p>
                 <p className="event loc">
-                    <a href={'https://goo.gl/maps/zFEXYB4EqgfVKioA7'} target="_blank" rel="noreferrer">
-                        KLUB FUTURYSTA
-                    </a>
+                    {/* <a href={'https://goo.gl/maps/zFEXYB4EqgfVKioA7'} target="_blank" rel="noreferrer"> */}
+                    TBA
+                    {/* </a> */}
                 </p>
                 <div className="desc">
-                    <p>
+                    {event.description}
+                    {/* <p>
                         <span>ANNIHILATION PARTY</span> + UNDERGROUND <span>HIP-HOP</span> COLLECTIVE ={' '}
                         <span>KONCERT</span> plus CAŁONOCNE ANNIHILOWANIE
                     </p>
@@ -59,7 +60,7 @@ const Event = () => {
                             </li>
                         </ul>
                     </p>
-                    <h3>TAX: 20, TYLKO CASH</h3>
+                    <h3>TAX: 20, TYLKO CASH</h3> */}
                 </div>
             </div>
         </>
