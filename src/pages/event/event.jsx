@@ -7,7 +7,7 @@ const Event = () => {
     return (
         <>
             <div className="flexbox main">
-                <img className="event img" src={require('./aliens.png')} alt={event.name} />
+                <img className="event img" src={require('./pic.png')} alt={event.name} />
 
                 <div className="event links">
                     <a href={event.link} target="_blank" rel="noreferrer">

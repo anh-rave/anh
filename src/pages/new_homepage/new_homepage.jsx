@@ -5,8 +5,6 @@ import ActionButton from '../../components/action_button/action_button'
 import { images, texts } from './data'
 import './style.css'
 
-const PROMO_PICS_COUNT = 5
-
 const NewHomepage = () => {
     let navigate = useNavigate()
     // const { user, login } = useAuth();
@@ -21,7 +19,7 @@ const NewHomepage = () => {
 
     const changePic = () => {
         setCurrentPromoPic(currentPromoPic + 1)
-        if (currentPromoPic === PROMO_PICS_COUNT) {
+        if (currentPromoPic === Object.keys(texts).length - 1) {
             setCurrentPromoPic(0)
         }
     }
